@@ -1,0 +1,521 @@
+/* * {
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+  overflow: scroll;
+} */
+
+.sidebar {
+
+  background: linear-gradient(
+    to right,
+    rgb(100, 98, 99),
+    rgb(31, 41, 41),
+    rgb(84, 56, 130)
+  );
+  /* background: rgb(226, 218, 218); */
+  font-family: "Times New Roman", Times, serif;
+  width: 220px;
+  height: 100vh;
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  margin: 0%;
+  transition: transform 0.3s ease-in;
+  position: absolute;
+  overflow: hidden;
+}
+
+li .sidebar nav {
+  list-style: disc;
+  padding: 20px;
+  
+}
+
+.achor {
+  text-decoration: none;
+  color: rgb(236, 228, 228);
+  list-style: none;
+  text-decoration: underline;
+}
+
+.sidebar nav li a {
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+  padding-top: 20px;
+  list-style: none;
+}
+
+.sidebar nav li a:hover {
+  color: rgb(43, 23, 23);
+  text-decoration: underline rgb(139, 131, 131);
+}
+
+#social:hover {
+ 
+}
+
+li {
+  margin-top: 40px;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  width: 90vw;
+}
+
+.information {
+  background: transparent;
+  height: 80vh;
+  /* overflow: hidden; */
+  width: 90%;
+  margin: auto;
+  /* margin-left: 100px; */
+  margin-top: 5vh;
+  justify-content: space-around;
+  display: flex;
+}
+
+.mypic {
+  border: #5ea3bc solid 4px;
+  border-radius: 300px;
+  margin-top: 59px;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+
+}
+
+
+
+.virat {
+  object-fit: cover;
+
+  height: 500px;
+  width: 500px;
+}
+
+.devinfo {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0%;
+}
+
+.hello {
+  font-size: 2em;
+  color: rgb(254, 255, 255);
+  font-weight: lighter;
+}
+
+.name {
+  font-weight: bold;
+  font-family: "Abril Fatface", serif;
+  background: -webkit-linear-gradient(orange, white, green);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+
+.about {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.buttons1 button {
+  width: 150px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 2.2em;
+  font-size: 20px;
+  border-radius: 30px;
+  color: white;
+  background-color: dodgerblue;
+}
+
+.buttons1 button:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+.moreabout {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-family: fantasy;
+  margin-top: 20px;
+}
+
+.contactinfo {
+  font-family: "Fira Sans", sans-serif;
+  padding: 0 20px;
+  margin: 20px;
+  margin: 0 88px;
+}
+
+.contactinfo h1 {
+  font-size: 20px;
+  font-family: Copperplate, Papyrus, fantasy;
+  padding-top: 150px;
+  /* text-align: center; */
+}
+
+.contactinfo div {
+  padding: 4px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactinfo div input {
+  padding: 15px;
+}
+
+.contactinfo label {
+  font-style: bold;
+}
+
+.contactinfo input {
+  height: 25px;
+  border-radius: 40px;
+  text-align: center;
+  width: 50%;
+}
+
+/* #isclient{
+float:left;
+height:15px;
+width: 20px;
+
+
+} */
+.form-check {
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.form-check input {
+  width: 15px;
+  margin: 3px 0;
+}
+
+.form-text {
+  color: darkslategray;
+  margin: 1px;
+  font: normal;
+  float: left;
+  font-size: 10px;
+}
+
+.form-label {
+  margin-left: 10px;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  margin-left: 0px;
+  font-size: 17px;
+  border-radius: 30px;
+  color: white;
+  background-color: dodgerblue;
+}
+
+.btn:hover {
+  background-color: white;
+  color: dodgerblue;
+}
+
+/* BLog items designing */
+.blogitem {
+  margin: 20px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.blogcontainer {
+  margin: 10px 88px;
+}
+
+.blogcontainer h1 {
+  padding: 23px;
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(220, 230, 239);
+  font-family: monospace;
+  font-weight: lighter;
+  text-decoration: underline dashed #c3c0bdda;
+  font-size: 50px;
+}
+
+.blogitem p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: lighter;
+}
+
+.blogitem h2 {
+  font-weight: bold;
+}
+
+.btn3 {
+  width: 69px;
+  height: 20px;
+  margin-left: 0px;
+  font-size: 10px;
+  border-radius: 30px;
+  color: white;
+  background-color: dodgerblue;
+}
+
+.btn3:hover {
+  background-color: rgb(5, 5, 5);
+  color: rgb(246, 246, 246);
+}
+
+.intro {
+  margin: 30px 88px;
+}
+
+.Education {
+  /* margin: 30px 88px; */
+  margin-left: 100px;
+}
+
+.intro h2 {
+  font-family: "Fira Sans", sans-serif;
+  margin: 12px;
+}
+
+.intro p {
+  font-family: "Source code pro", monospace;
+  /* padding-left: 12px; */
+  margin: 12px;
+}
+
+/* ski9lllllllsslssssssssssss */
+.skillcontainer P {
+  padding: 12px;
+}
+
+.skillcontainer {
+  margin-top: 30px;
+}
+
+.skillitem {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border: 2px solid rgb(165, 146, 146);
+  border-radius: 10px;
+  width: 400px;
+  font-size: 20px;
+  color: rgb(11, 11, 11);
+  background-color: transparent;
+}
+
+.html {
+  background-color: dodgerblue;
+  height: 20px;
+  width: 300px;
+  margin-left: 23px;
+  border-radius: 25px;
+  text-align: end;
+  font-size:20px;
+}
+.html:hover{
+  font-size: 20px;
+  color: floralwhite;
+}
+
+.css {
+  background-color: dodgerblue;
+  height: 20px;
+  margin-left: 46px;
+  width: 270px;
+  border-radius: 25px;
+  text-align: end;
+
+  font-size:20px;
+
+
+}
+.css:hover{
+  font-size: 20px;
+  color: floralwhite;
+}
+
+.js {
+  background-color: dodgerblue;
+  height: 20px;
+  width: 200px;
+  margin-left: 2px;
+  border-radius: 25px;
+  text-align: end;
+  font-size:20px;
+
+
+}
+.js:hover{
+  font-size: 20px;
+  color: floralwhite;
+}
+
+
+.java {
+  background-color: dodgerblue;
+  height: 20px;
+  width: 250px;
+  margin-left: 46px;
+  border-radius: 25px;
+  text-align: end;
+  font-size:20px;
+
+  
+
+}
+.java:hover{
+  font-size: 20px;
+  color: floralwhite;
+}
+
+
+.sidebarGo {
+  transform: translate(-443px, 0px);
+  position: absolute;
+}
+
+@media (max-width: 900px) {
+  .mypic {
+    display: none;
+  }
+
+  .intro,
+  .blogcontainer,
+  .contactinfo {
+    margin: 20px 8px;
+    /* overflow: scroll; */
+  }
+  .blogcontainer h1{
+    font-size: 25px;
+  }
+
+  .devinfo {
+    font-size: 10px;
+  }
+
+  .contactinfo {
+    width: 99vh;
+  }
+
+  .buttons1 button {
+    font-size: 10px;
+  }
+
+  .contactinfo h1 {
+    font-size: 15px;
+    text-align: start;
+  }
+  .projects{
+    font: 20px;
+  }
+  .paragraph{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+}
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+
+.cross {
+  margin-left: 190px;
+  filter: blur(0.2px);
+}
+
+@media (orientation: landscape) {
+  .contactinfo {
+    width: 100%;
+  }
+
+  .intro {
+    padding-top: 20px;
+  }
+}
+
+/* Animated Background */
+body {
+  background: linear-gradient(-45deg, #c59a8d, #d2658f, #5ea3bc, #62d0b6);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icons img {
+  margin: 15px;
+  margin-left: 25px;
+  height: 35px;
+  width: 35px;
+}
+.icons img:hover {
+  border: solid 2px rgb(211, 204, 204);
+  border-radius: 50px;
+}
+#social {
+  font-size: 30px;
+  padding: 10px;
+  padding-top: 40px;
+  color: rgb(236, 228, 228);
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+}
+.intro h2 {
+  color: rgb(220, 230, 239);
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  text-decoration: underline #c3c0bdda;
+  font-size: 50px;
+}
+.intro p {
+  text-align: start;
+  font-weight: lighter;
+  font-size: 22px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.title2{
+font-size: 40px;
+margin-top: 50px;
+margin-left: 40px;
+color: azure;
+font-weight: bold;
+}
+.pyra,.pyara{
+  margin-left: 40px;
+  font-size: 20px;
+}
+.robot{
+  margin-left: 400px;}
+.paragraph{
+  margin-top: 50px;
+  margin-left: 40px;
+}

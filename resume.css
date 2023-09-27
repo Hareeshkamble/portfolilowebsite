@@ -1,0 +1,167 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0%;
+}
+body{
+    background-color: darkgray;
+    margin: 20px;
+    padding: 10px;
+    border:4px solid black ;
+    border-radius: 40px;
+
+}
+u{
+    margin-top: 10px;
+    color: rgb(136, 79, 79);
+}
+u:hover{
+    text-decoration: overline;
+}
+.profile{
+    margin:20px;
+}
+header{
+    /* background-color: #e1decc; */
+    border-radius: 4px;
+    overflow: hidden;
+    animation-name: har ry;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+header p{
+    margin-left: 30px;
+}
+.adress,.ad{
+    margin-left: 30px ;
+
+}
+.mail{
+    margin-right: 30px;
+    float: right;
+    text-decoration: none;
+}
+/* nanna name */
+h2{
+    color: #8B008B;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom:0%;
+    animation-name: name;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+h3{
+    margin-bottom: 5px;
+text-decoration: underline  2px #100d09;
+text-shadow: #e1decc 2px 2px ;
+}
+.education{
+    list-style-type:square;
+    margin-top: 10px;
+}
+.per{
+border:0px double rgb(217, 214, 214);
+overflow: hidden;
+border-radius: 30%;
+overflow: hidden;
+color: #683b07;
+margin-left: 70px;
+/* background-color:#bac2bd; */
+height: fit-content;
+width: fit-content;
+float: inline-end;
+}
+.per:hover{
+    background-color: rgb(161, 189, 114);
+    zoom: 110%;
+    width: 150px;
+    text-align: center;
+}
+.skills{
+    list-style:decimal;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url(https://bazelet-software.co.il/wp-content/uploads/2017/10/html5-css-javascript-logos-2-300x120.png);
+    background-repeat: no-repeat;
+    background-size:  200px;
+    background-blend-mode:overlay;
+    background-position-y: center;
+    background-position-x: right;
+    overflow: hidden;
+
+}
+.skills:hover{
+    zoom:110%;
+    text-decoration: dotted  2px ;
+    cursor:cell;
+    
+
+}
+.boldd{
+    font-size: 18px;
+    color:darkslategray;
+
+}
+a:hover{
+    text-decoration: underline  rgb(99, 60, 60) 2px;
+}
+.title{
+    font-size: large;
+    color: #c77d44;
+    text-decoration: underline wavy 1px grey;
+    
+}
+
+.title2{
+    color: #683b07;
+    margin-left: 20px;
+    font-size: 20px;
+    font-style: oblique;
+    font-variant-ligatures: historical-ligatures;
+}
+.discription{
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-stretch: extra-condensed;
+    animation-name:discri;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.2s;
+}
+@keyframes name {
+    from{
+        color:#cc9f45;
+        
+
+    }
+    to{
+        color: rgb(124, 28, 154);
+
+    }
+
+    
+}
+.pro{
+    text-decoration: none;
+    color: #100d09;
+}
+@keyframes harry{
+    from{
+        background-color:darkgrey;
+
+    }
+    to{
+        background-color:rgb(185, 142, 127) ;
+        scrollbar-3dlight-color: chartreuse;
+        
+    }
+}
+@keyframes discri {
+
+    
+}

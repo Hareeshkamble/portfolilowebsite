@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StylingForms</title>
+    <link rel="stylesheet" href="style4.css">
+
+</head>
+<body>
+   <div class="container">
+    <h1>Payment Form Details</h1> <hr> 
+    
+    <form action=" " method="get">
+       <strong> <h3>User information</h3></strong>
+Name*
+<input type="text" placeholder="Enter your Name" required><br><br>
+
+<label for="id">
+    <legend>Gender</legend>
+    <fieldset> <input type="radio" name="male" id="male">male
+    <input type="radio" name="female" id="female">Female</fieldset>
+</label>
+Address* <br>
+<textarea name="" id="" cols="58" rows="4" placeholder="Adress:-"></textarea>
+<P>Email:
+    <input type="email" name="email" id="email" placeholder="Email ID" required>
+</P>
+<p>Password:<input type="password" placeholder="Enter your Password" required></p>
+<p>Pincode:
+<input type="number" placeholder="ex 586-101">
+</p>
+<h3>Paymment information</h3>
+<div class="box"><img src="cards.png" alt="" class="id"></div>
+<p>Card type: <select name="card type" id="101" required >
+    <option value="">--Select--</option>></option>
+    <option value="mastercard">mastercard</option>
+    <option value="RuPay">ru Payment</option>
+    <option value="VISA">VISA</option>
+    <option value="Paypal">Paypal</option>
+</select>
+</p>
+<p>Card Number*:
+    <input type="number" placeholder="111-222-333-444" required>
+</p>
+<p>
+Expiration Date:
+<input type="date" name="Expirationdate" id="101" required>
+</p>
+<p>CVV*<input type="number" name="" id="" placeholder="00"></p>
+<button>Pay now</button>
+    </from>
+    </div>
+</body>
+</html>

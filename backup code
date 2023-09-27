@@ -1,0 +1,125 @@
+<div class="information">
+    <div class="devinfo">
+      <div class="hello">Hello I am</div>
+      <div class="name">Hareesh Kamble</div>
+      <div class="about">Developer,Creator,Electrical Engineer</div>
+      <div class="moreabout">
+        I am a Developer,and Electrical Engineer I live in Karnataka
+        Vijayapur
+      </div>
+      <div class="buttons">
+        <a href="/resume.html"><button>Resume</button></a>
+        <a href="/contactme.html"> <button>Contact Me</button></a>
+      </div>
+    </div>
+    <div class="mypic">
+      <img
+           class="virat"src="virat-kohli-6690336__340.webp"alt="ViratKing"/>
+    </div>
+  </div>
+  <div class="information">
+    <div class="devinfo">
+      <div class="hello">Hello I am</div>
+      <div class="name">Hareesh Kamble</div>
+      <div class="about">Developer,Creator,Electrical Engineer</div>
+      <div class="moreabout">
+        I am a Developer,and Electrical Engineer I live in Karnataka
+        Vijayapur
+      </div>
+      <div class="buttons">
+
+        <a href="/resume.html"><button>Resume</button></a>
+       <a href="/contactme.html"> <button>Contact Me</button></a>
+      </div>
+    </div>
+    <div class="mypic">
+      <img
+        class="virat"
+        src="virat-kohli-6690336__340.webp"
+        alt="ViratKing"
+      />
+    </div>
+  </div>
+
+  <!-- alaaaaaaaaaaaaaaaaaaaaaaaaaaaa -->
+  <div class="contactinfo">
+    <form>
+      <h1>Contact me for a work/General enquiries</h1>
+      <div class="mb-3">
+        <label for="clientemail" class="form-label">Name</label>
+        <input type="email" placeholder="Enter name" required class="form-control" id="clientemail" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="clientemail" class="form-label">Email address</label>
+        <input type="email" placeholder="Enter Email" required class="form-control" id="clientemail" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="clientphone" class="form-label">Password</label>
+        <input type="password" placeholder="Password" spellcheck="true"  required  class="form-control" id="clientphone">
+      </div>
+      <div class="mb-3">
+        <label for="clientemail" class="form-label">Enquiry</label>
+        <input type="enquiry" placeholder="Enquiry" required class="form-control" id="enquiry" aria-describedby="emailHelp">
+
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" required  id="isclient">
+        <label class="form-check-label" for="isclient">I want to work on a project with me </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+   </div>
+   
+
+
+
+
+   <!-- navbar
+   -->
+   <div class="sidebar sidebarGo">
+    <nav>
+      <ul>
+        <li><a class="achor" href="/">Home</a></li>
+        <li><a class="achor" href="/aboutme.html">AboutMe</a></li>
+        <li><a class="achor" href="/moonpage.html">Service</a></li>
+        <li><a class="achor" href="/projects.html">Projects</a></li>
+        <!-- <li><a class="achor" href="/blog.html">Blog</a></li> -->
+        <li><a class="achor" href="/contactme.html">Contact Me</a></li>
+        <h3 id="social">Social Media</h3>
+         <div class="icons" style="display: flex"> 
+         
+          <div class="codepen">
+            <a href="https://codepen.io/hareesh_kamble">
+              <img src="icons8-codepen-50.png" alt=""
+            /></a>
+          </div>
+          <div class="LinkedIn">
+            <a href="https://www.linkedin.com/in/hareesh-kamble-8a0ba7214">
+              <img src="icons8-linkedin-48.png" alt=""
+            /></a>
+          </div>
+          <div class="Facebook">
+            <a href="https://www.facebook.com/hareesh.kamble.77">
+              <img src="icons8-facebook-48.png" alt=""
+            /></a>
+          </div>
+          <div class="Instagram">
+            <a href="https://www.instagram.com/mr_hareesh_09/">
+              <img src="icons8-instagram-48 (1).png" alt=""
+            /></a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </div>
+  <div class="main">
+    <div class="hamburger">
+      <img
+        width="27px"
+        class="ham"
+        src="/95587188-bb69ea80-0a0f-11eb-8b4b-c6dda77a9ac4.png"
+        alt=""
+      />
+      <img width="27px" class="cross" src="cancel-icon-png-26.jpg" alt="" />
+    </div>

@@ -1,0 +1,489 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+    width: auto;
+}
+body{
+    background-image: linear-gradient(to left, #e8ad77, #dbd4dd, #8be4e9);
+}
+nav{
+    position:sticky;
+
+}
+.dabba{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ cursor: red;
+}
+.lgo{
+    font-size: 50px;
+font-weight:800;
+font-family: 'Bree Serif', serif;
+background: linear-gradient(
+    to right,
+    #c9c6d2 20%,
+    #cd855e 30%,
+    #242525 70%,
+    #8f25db 80%
+);
+-webkit-background-clip: text;
+background-clip: text;
+-webkit-text-fill-color: transparent;
+text-fill-color: transparent;
+background-size: 500% auto;
+animation: textShine 5s ease-in-out infinite alternate;
+
+}
+@keyframes textShine {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+#navbarNav li{
+    margin-left: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+
+ }
+
+
+@media screen and (max-width:720px) {
+    .lgo{
+        font-size: 30px;
+        color: rgb(233, 221, 118);
+        margin-left: 20px;
+
+    }
+    #navbarNav li{
+        margin-left: 10px;
+     }
+     .jw{
+        margin-left: 15px;
+     }
+    
+  
+
+}
+
+.main h1{
+    margin-top: 100px;
+    font-size:60px;
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+.main{
+    
+    background:url(/imgss/design-background-portfolio.webp);
+    height: 90vh;
+    width: 100%;
+    background-position: 50% 40%;
+    /* mix-blend-mode:soft-light; */
+    object-fit: cover;
+    color: whitesmoke;
+  
+
+}
+
+.iam{
+    color: rgb(245, 245, 245);
+      font-size: 40px;
+      padding: 15px;
+      font-family: 'Kurale', serif;
+     
+     
+  }
+  .text{
+    color: white;
+      border-right: 0px solid red;
+      font-size: 40px;
+      background: -webkit-linear-gradient(rgb(241, 94, 94), rgb(191, 60, 104));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+      font-family: 'Kurale', serif;
+
+  }
+.main button{
+    height: 40px;
+    width: 150px;
+background: rgb(91, 152, 212);;
+color: white;
+font-family: 'Kurale', serif;
+outline: white 3px solid;
+border-radius: 40px;
+margin: 20px;
+font-size: 24px;
+
+
+}
+.main button:hover{
+color: rgb(0, 0, 0);
+background: rgb(255, 255, 255);
+outline: rgb(225, 208, 96) 3px solid;
+
+}
+.main a:hover{
+    color: rgb(0, 0, 0);
+background: rgb(255, 255, 255);
+
+}
+.main a{
+color: white;
+text-decoration: none;
+outline: none;
+}
+.butns{
+    margin-left: 200px;
+}
+@media screen and (max-width:720px) {
+    .text{
+        font-size: 30px;
+        background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(184, 186, 42));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+    }
+    .iam{
+        font-size: 30px;
+    }
+    .main h1{
+        margin-top: 20px;
+        font-size:60px;
+        font-family: 'Cinzel Decorative', cursive;
+        font-weight: 900;
+    
+    }
+    .butns{
+        margin-left: 10px;
+        font-weight: lighter;
+    }
+
+    
+
+  
+}
+
+@media screen and (max-width:720px) {
+    .main{
+    
+        background:url(/imgss/21.jpeg) no-repeat;
+        height: 90vh;
+        width: 100%;
+        background-position: 50% 40%;
+    }
+}
+    .profile-pic {
+/* margin: 20px 20px 40px 40px; */
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+
+    }
+    .about h2{
+        padding-top: 60px;
+        text-align: center;
+        font-size: 50px;
+        font-weight: 100;
+    font-family: 'Cinzel Decorative', cursive;
+       color: snow;
+    }
+    .about h2:hover{
+        text-decoration:  wheat 4px ;
+       
+    }
+    .about p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
+        font-size: 25px;
+        padding-top: 20px;
+color: rgb(46, 44, 39);
+    }
+    .profile-pic:hover{
+        -webkit-box-shadow: 0px -20px 76px -3px rgb(241, 9, 9);
+        -moz-box-shadow: 0px -20px 76px -3px rgb(218, 25, 218);
+        box-shadow: 0px -20px 76px -3px rgb(158, 162, 181);
+    transition: 0.8s; 
+    }
+
+
+
+
+/* footer */
+
+    .footer p a{
+        color: aliceblue;
+        text-decoration: none;
+        font-size:18px;
+        line-height: 6 px;
+    }
+    .fab {
+        font-size: 35px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .fb:hover{
+        color: rgb(33, 125, 255);
+    }
+    .ig:hover{
+        color: rgb(243, 106, 225);
+    }
+    .tw:hover{
+        color: rgb(6, 236, 25);
+    }
+    .g:hover{
+        color: rgb(234, 14, 14);
+    }
+    .tg:hover{
+        color: rgb(6, 144, 236);
+    }
+    .fas{
+        font-size: 25px;
+       
+    };
+    .card-body:hover{
+        
+    }
+    .harry{
+        color:salmon;
+    }
+    
+    .footer{
+        background-color: black;
+        color: white;
+    }
+    .footer h1{
+        font-size: 70px;
+    }
+    .footer input{
+        height: 45px;
+        width: 500px;
+        border-radius: 50px;
+        /* text-align: center; */
+        outline: none;
+        border: 2px white solid;
+        background-color: black;
+        color: rgb(247, 245, 245);
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    
+        
+    }
+    #mailid::placeholder {
+        text-align:right(20px);
+        margin-left: 3px;
+        color: rgb(196, 169, 169);
+    }
+    .btn2{
+        height: 45px;
+        width: 100px;
+        border-radius: 50px;
+        text-align: center;
+        color:whitesmoke;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 2px;
+        background-color: hotpink;
+        margin-left: -40px;
+        outline: none;
+        border: 2px white solid;
+    }
+    .btn2:visited{
+        background-color:rebeccapurple;
+    }
+    .Social {
+        margin-left: 200px;
+    }
+    .care{
+        margin-top: 2em;
+        margin-left: 200px;
+       
+        line-height: 26px;
+    }
+    .care p{
+        font-family: monospace;
+        font-size: 23px;
+    }
+    .care p:hover{
+        text-decoration:  wheat 2px;
+    }
+    .lastbtn{
+        border-radius: 40px;
+        height: 30px;
+        width: 130px;
+        font-weight: 100;
+    font-size: 18px;
+    margin-left: 500px;
+    text-align-last: center;
+    outline:snow 2px solid;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    .icos{
+    color: white;
+    }
+    @media screen and (max-width:720px) {
+        .footer h1{
+            font-size: 35px;
+        }
+        .footer input{
+         width: 200px;
+        }
+        .btn2{
+           
+        }
+        .Social {
+            margin-left: 0px;
+        }
+        .care{
+            margin-top: 2em;
+            margin-left: 10px;
+           
+            line-height: 26px;
+        }
+        
+    
+    }    
+  .card{
+    border-radius: 40px;
+  }
+  .card-group p{
+color:azure ;
+  }
+  .card-group h2{
+    color: white;
+    font-family: lobster,'Times New Roman', Times, serif;
+  }
+.services h1{
+    color:rgb(21, 20, 20) ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding:.8rem!important;
+font-size: 50px;
+
+}
+.card-group button{
+    text-align: center;
+    height: 40px;
+    color: whitesmoke;
+    font-size: 25px;
+    width: 300px;
+    border-radius: 40px;
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-left: 150px;
+
+}
+.card-group button:hover{
+    background-color: #feac5e;
+    color: black;
+}
+@media screen and (max-width:720px) {
+.card-group button{
+    margin-left: 10px;
+    height: 30px;
+    font-size: 20px;
+    width: 250px;
+
+}
+.images img{
+    height: 60px;
+    width: 160px;
+    margin: auto;
+margin: collapse;
+behavior: scroll;
+}
+.main button{
+    height: 30px;
+    width: 130px;
+background: rgb(91, 152, 212);;
+color: white;
+font-family: 'Kurale', serif;
+outline: white 3px solid;
+border-radius: 40px;
+margin: 10px;
+font-size: 20px;
+
+
+}
+}
+
+.djname{
+
+    background: linear-gradient(-45deg, #c8427e, #6355a4, #ffffff, #e89a3e);
+	background-size: 300%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 900;
+	font-size: 5vw;
+	letter-spacing: -5px;
+	text-transform: uppercase;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 10s ease-in-out infinite;
+	-moz-animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 10s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+
+.skills h3{
+color: #ffffff;
+/* text-decoration: underline wavy 2px rgb(255, 255, 255); */
+font-size: 45px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-transform: uppercase;
+
+}
+.skills li{
+    list-style: disc;
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 4px;
+    font-size: 24px;
+    outline: 1px white solid;
+color:rgb(81, 81, 136);
+text-transform:uppercase;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 600;
+}
+
+
+.skills li:hover{
+    background-color: #3d3e3e;
+    color: #ffffff;
+}
+.skills h3:hover{
+
+    color: #e95050;
+
+}
+
+.images img{
+    height: 100px;
+    width: 250px;
+    margin: auto;
+margin: collapse;
+}
+marquee{
+    background:transparent ;
+    
+}
+.footer span{
+    text-align: center;
+font-size: 20px;
+font-family:'Times New Roman', Times, serif;
+
+}
+.footer a:hover{
+    color: #e89a3e;
+    text-decoration: underline white 2px;
+}
